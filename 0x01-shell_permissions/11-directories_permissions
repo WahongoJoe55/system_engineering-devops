@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x make_dirs_0x01-shell_permissions
+chmod +x add_dir_0x01-shell_permissions
