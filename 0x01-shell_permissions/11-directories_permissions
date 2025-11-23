@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x make_dirs_executable.sh
+chmod u+x make_dirs_0x01-shell_permissions
