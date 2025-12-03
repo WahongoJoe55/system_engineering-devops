@@ -1,0 +1,2 @@
+#!/bin/bash
+RESULT=$(($BREATH**$LOVE)) echo $RESULT
