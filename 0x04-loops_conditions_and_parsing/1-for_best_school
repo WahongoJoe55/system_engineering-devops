@@ -1,2 +1,2 @@
-#!/bin/bash
-# This script is displaying "Best School" using for loop 10 times
+#!/usr/bin/env bash
+for (1..10), echo "Best School"
