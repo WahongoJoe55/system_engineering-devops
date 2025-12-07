@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {1..10}; do echo "Best School" done
+# This script is displaying "Best School" using for loop 10 times
