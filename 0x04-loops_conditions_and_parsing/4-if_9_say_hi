@@ -1,0 +1,12 @@
+#!/usr/bin/env bash.
+#The script is to integrate if statement within a while loop
+COUNT=0
+while [ $COUNT -lt 10 ]; do
+  COUNT=$((COUNT + 1))
+  if [ $COUNT -eq 9 ]; then
+    echo "Best School"
+    echo "Hi"
+  else
+    echo "Best School"
+  fi
+done
