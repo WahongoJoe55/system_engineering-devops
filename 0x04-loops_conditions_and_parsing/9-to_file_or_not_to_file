@@ -1,0 +1,16 @@
+#!/bin/bash
+# This script provides information about a file named 'school'
+FILE="school"
+
+if [ ! -e "$FILE" ]; then
+    echo "school file does not exist"
+elif [ -f "$FILE" ]; then
+    if [ -s "$FILE" ]; then
+        echo "school file is not empty"
+    else
+        echo "school file is empty"
+    fi
+else
+    # This covers directories, symbolic links, etc.
+    echo "school is not a regular file"
+fi
