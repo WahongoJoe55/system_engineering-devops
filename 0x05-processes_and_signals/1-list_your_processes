@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that displays comprehensive list of all current running processes
 
-ps aux | pgrep bash -c
+ps aux | pgrep -v pgrep
