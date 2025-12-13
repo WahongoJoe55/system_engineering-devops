@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # A Bash script handling SIGTERM
 
-kill -9 $(pgrep 7-highlander)
-
+#!/bin/bash
+PID=$(pgrep 7-highlander)
+kill -9 $PID
