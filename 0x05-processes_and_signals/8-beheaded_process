@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that kills the 7 highlander
 
-PID=$(pgrep 7-highlander)
 kill -9 $PID
