@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
 # A Bash script handling SIGTERM
 
-
-# Find the PID of the "7-highlander" process and store it in a variable
-PID=$(pgrep "I am Invincible!!!)
-
-# Send the SIGKILL (signal 9) to the obtained PID
-if [ -n "$PID" ]; then
-    kill -9 "$PID"
-else
-    echo "I am Invincible!!!"
-fi
+kill -9 $(pgrep 7-highlander)
 
