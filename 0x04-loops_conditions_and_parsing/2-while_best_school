@@ -1,7 +1,7 @@
 #!/usr/bin/env bash.
 #This script prints "Best School" 10 times using a while loop
 COUNT=0
-while [ $COUNT -lt 9 ]
+while [ $COUNT -lt 11 ]
 do
   echo "Best School"
   COUNT=$((COUNT + 1))
