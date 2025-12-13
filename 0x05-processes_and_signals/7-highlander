@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script handling SIGTERM
+
+kill -9 $(pgrep 7-highlander)
