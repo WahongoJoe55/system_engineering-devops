@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that identifies and stops the process
 
-pkill 4-to_infinity_and_beyond
+ps aux | pgrep 4-to_infinity_and_beyond | pgrep -v pgrep | awk '{print $2}' | xargs pkill
