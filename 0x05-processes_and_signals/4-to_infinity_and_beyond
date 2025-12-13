@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # A Bash script that displays sleep mode
 
-sleep 2
+#!/bin/bash
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done
