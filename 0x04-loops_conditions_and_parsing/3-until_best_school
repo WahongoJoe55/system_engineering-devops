@@ -1,7 +1,7 @@
 #!/usr/bin/env bash.
 #This script is meant to use until loop to display "Best School"
 COUNTER=0
-until [ $COUNTER -eq 10 ]; do
+until [ $COUNTER = 10 ]; do
   echo "Best School"
   ((COUNTER++))
 done
