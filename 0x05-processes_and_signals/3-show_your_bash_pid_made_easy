@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that displays process name without ps
+
+pgrep -l bash
