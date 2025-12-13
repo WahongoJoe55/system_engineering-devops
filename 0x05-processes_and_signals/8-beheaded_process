@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that kills the 7 highlander
 
-kill -9 $PID
+kill -9 7-highlander
